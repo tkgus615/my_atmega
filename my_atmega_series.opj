@@ -1,0 +1,92 @@
+(ExpressProject "my_atmega_series"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\my_atmega_series.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\MY_ATMEGA_SERIES.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ORCAD")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0"))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (DIPSOC-14x2
+      (FullPartName "DIPSOC-14x2.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\MECHANICAL.OLB")
+      (DeviceIndex "0"))
+    (DIPSOC-16x2
+      (FullPartName "DIPSOC-16x2.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\MECHANICAL.OLB")
+      (DeviceIndex "0"))
+    (ATmega128
+      (FullPartName "ATmega128.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\AVR.OLB")
+      (DeviceIndex "0"))
+    (ATMEGA8535-DIL40
+      (FullPartName "ATMEGA8535-DIL40.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\AVR.OLB")
+      (DeviceIndex "0"))
+    (ATMega8-TQFP32
+      (FullPartName "ATMega8-TQFP32.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\AVR.OLB")
+      (DeviceIndex "0"))
+    (ATmega8-DIL28
+      (FullPartName "ATmega8-DIL28.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\AVR.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\user\Desktop\vscode_orcad\cdns\cdns\tools\capture\library")
+  (ISPCBBASICLICENSE "false")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 534"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 104 1694 29 601")
+        (Scroll "-247 0")
+        (Zoom "108")
+        (Occurrence "/"))
+      (Path "C:\USERS\USER\DESKTOP\WORK\PCB_LIB\PSM\MY_ATMEGA_SERIES.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
